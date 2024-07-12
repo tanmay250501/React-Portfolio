@@ -7,3 +7,9 @@
 :root {
   font-family: "Inter" , sans-serif;
 }
+
+/* Add this CSS rule */
+html {
+  scroll-behavior: smooth;
+}
+
