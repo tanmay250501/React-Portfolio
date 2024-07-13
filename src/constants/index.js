@@ -40,11 +40,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Food Blog Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional Food Blog  website with features like Dishes Recepie listing, Serach Feature, and admin authentication for adding new recipies , deleting old recepies , updating recipie or creating diffrent categories.",
+    technologies: ["HTML", "CSS","Tailwind CSS", "React", "Node.js","Express.js", "MongoDB"],
   },
   {
     title: "Task Management App",

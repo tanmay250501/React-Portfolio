@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="m-5 flex item-center justify-center gap-4 text-2xl " >
             <FaLinkedin className="hover:text-cyan-700" />
             <FaGithub  className="hover:text-white"/>
-            <button className="bg-slate-400  font-bold  px-2 rounded hover:text-white">Resume</button>
+            <button className="bg-transparent hover:bg-blue-500 text-slate-4000 font-semibold hover:text-white  px-4 border border-slate-400 hover:border-transparent rounded">Resume</button>
         </div>
     </nav>
   )
