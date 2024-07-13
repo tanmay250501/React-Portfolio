@@ -14,7 +14,7 @@ const container = (delay) => ({
 
 const Hero = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4 lg:mb-35 overflow-x-hidden w-full">
+        <div className="border-b border-neutral-900 pb-4  lg:mb-35 overflow-x-hidden w-full">
             <div className="flex flex-wrap w-full">
                 <div className="w-full lg:w-1/2 px-4">
                     <div className="flex flex-col items-center lg:items-start">
@@ -22,7 +22,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-10 text-4xl md:text-5xl lg:text-6xl font-thin tracking-tight lg:mt-16"
+                            className="pb-10 text-4xl  md:text-5xl lg:text-6xl font-thin tracking-tight lg:mt-16"
                         >
                             Tanmay Sawwalakhe
                         </motion.h1>

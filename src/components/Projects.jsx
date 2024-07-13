@@ -9,6 +9,11 @@ const Projects = () => {
         console.log(link);
         window.open(link, '_blank');
     }
+    const handleGitLink = (gitHub) => {
+        // Example: Log the link and perform actions such as opening it in a new tab
+        console.log(gitHub);
+        window.open(gitHub, '_blank');
+    }
 
     return (
         <div className="border-b border-neutral-900 pb-4">
@@ -53,9 +58,14 @@ const Projects = () => {
                                     {tech}
                                 </span>
                             ))}
-                            <button onClick={() => handleLink(project.link)} className="mt-4 text-blue-500 underline flex">
+                            <div className="flex flex-wrap">
+                            <button onClick={() => handleLink(project.link)} className="mt-4 p-2 text-blue-500 underline ">
                                 Visit Project
                             </button>
+                            <button onClick={() => handleLink(project.gitHub)} className="mt-4 text-blue-500 underline ">
+                                Visit Git Repo
+                            </button>
+                            </div>
                         </motion.div>
                     </div>
                 ))}

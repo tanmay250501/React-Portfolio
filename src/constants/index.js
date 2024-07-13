@@ -10,38 +10,25 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Full Stack Developer",
+    company: "Freelancer",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with clients to define project requirements and timelines.`,
+    technologies: ["Javascript", "React.js", "Next.js","Express.js" , "mongoDB", "GitHub" , "Node.js"],
   },
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    company: "AnkHub Technology Services",
+    description: `Designed and developed user interfaces for web applications using  React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["HTML", "CSS","JavaScript", "React.js" , "Trello" , "GitHub"],
+  }
 ];
 
 export const PROJECTS = [
   {
     title: "Food Blog Website",
     image: project1,
+    gitHub:"https://github.com/tanmay250501/Food-bloog-website",
     link: "https://food-bloog-website-live.vercel.app/",
     description:
       "A fully functional Food Blog  website with features like Dishes Recepie listing, Serach Feature, and admin authentication for adding new recipies , deleting old recepies , updating recipie or creating diffrent categories.",
@@ -50,14 +37,16 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project2,
+    gitHub:"https://github.com/tanmay250501/React-Portfolio",
     link: "tanmay-sawwalakhe-portfolio.vercel.app/",
     description:
       "Explore my portfolio crafted with HTML, CSS, and Tailwind CSS for stunning design, powered by React.js for dynamic interactivity. Integrated with EmailJS for seamless contact forms, Framer Motion for smooth animations, and React-Toast for user-friendly notifications.",
-    technologies: ["HTML","Tailwind CSS", "React.js", "EmailJS" , "Framer Motion" , "React-Toast" ],
+    technologies: ["HTML","Tailwind.CSS", "React.js", "EmailJS" , "Framer-Motion" , "React-Toast" ],
   },
   {
     title: "Calculator",
     image: project3,
+    gitHub:"https://github.com/tanmay250501/Calculator-in-JS",
     link: "https://tanmay250501.github.io/Calculator-in-JS/",
     description:
       "A Calculator which show my strong command on JavaScript",
@@ -66,8 +55,4 @@ export const PROJECTS = [
   
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};
+
