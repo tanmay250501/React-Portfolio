@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React.js , as well as back-end technologies like Node.js, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -42,31 +42,28 @@ export const PROJECTS = [
   {
     title: "Food Blog Website",
     image: project1,
+    link: "https://food-bloog-website-live.vercel.app/",
     description:
       "A fully functional Food Blog  website with features like Dishes Recepie listing, Serach Feature, and admin authentication for adding new recipies , deleting old recepies , updating recipie or creating diffrent categories.",
     technologies: ["HTML", "CSS","Tailwind CSS", "React", "Node.js","Express.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
+    link: "tanmay-sawwalakhe-portfolio.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Explore my portfolio crafted with HTML, CSS, and Tailwind CSS for stunning design, powered by React.js for dynamic interactivity. Integrated with EmailJS for seamless contact forms, Framer Motion for smooth animations, and React-Toast for user-friendly notifications.",
+    technologies: ["HTML","Tailwind CSS", "React.js", "EmailJS" , "Framer Motion" , "React-Toast" ],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Calculator",
+    image: project3,
+    link: "https://tanmay250501.github.io/Calculator-in-JS/",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "A Calculator which show my strong command on JavaScript",
+    technologies: ["HTML", "CSS", "JavaScript", ],
+  }
+  
 ];
 
 export const CONTACT = {

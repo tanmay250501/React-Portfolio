@@ -3,6 +3,13 @@ import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
 
 const Projects = () => {
+
+    const handleLink = (link) => {
+        // Example: Log the link and perform actions such as opening it in a new tab
+        console.log(link);
+        window.open(link, '_blank');
+    }
+
     return (
         <div className="border-b border-neutral-900 pb-4">
             <motion.h2
@@ -46,6 +53,9 @@ const Projects = () => {
                                     {tech}
                                 </span>
                             ))}
+                            <button onClick={() => handleLink(project.link)} className="mt-4 text-blue-500 underline flex">
+                                Visit Project
+                            </button>
                         </motion.div>
                     </div>
                 ))}

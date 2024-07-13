@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Ensure emailjs is imported
-import { Toaster, toast } from 'react-hot-toast'; // Ensure toast and Toaster are imported
+import emailjs from 'emailjs-com';
+import { Toaster, toast } from 'react-hot-toast';
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -11,7 +11,6 @@ const About = () => {
   });
 
   const [errors, setErrors] = useState({});
-
   const [isSending, setIsSending] = useState(false);
 
   const handleChange = (e) => {
@@ -25,11 +24,9 @@ const About = () => {
   const validation = () => {
     let error = {};
     if (!formData.name) error.name = "Name is required";
-
     if (!formData.email) {
       error.email = "Email is required";
-    }
-    else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       error.email = "Email is invalid";
     }
     if (!formData.message) {
@@ -43,8 +40,7 @@ const About = () => {
     const validateErrors = validation();
     if (Object.keys(validateErrors).length > 0) {
       setErrors(validateErrors);
-    }
-    else {
+    } else {
       setErrors({});
       setIsSending(true);
 
@@ -72,12 +68,13 @@ const About = () => {
 
   return (
     <div className="mx-auto max-w-xl p-4">
-      <Toaster />
+      <Toaster position="top-center" />
       <motion.h2
-      whileInView={{ opacity: 1, y: 0 }}
-      initial={{ opacity: 0, y: -100 }}
-      transition={{ duration: 0.5 }}
-      className="my-12 text-center text-2xl font-semibold uppercase tracking-wide text-slate-100">
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
+        className="my-12 text-center text-2xl font-semibold uppercase tracking-wide text-slate-100"
+      >
         Get in Touch
       </motion.h2>
       <form onSubmit={handleSubmit}>
@@ -108,7 +105,6 @@ const About = () => {
         >
           {isSending ? "Sending..." : "Send"}
         </button>
-
       </form>
     </div>
   );
