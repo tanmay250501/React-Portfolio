@@ -37,7 +37,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project2,
-    gitHub:"https://tanmay-sawwalakhe-portfolio.vercel.app/",
+    gitHub:"https://github.com/tanmay250501/React-Portfolio",
     link: "https://tanmay-sawwalakhe-portfolio.vercel.app/",
     description:
       "Explore my portfolio crafted with HTML, CSS, and Tailwind CSS for stunning design, powered by React.js for dynamic interactivity. Integrated with EmailJS for seamless contact forms, Framer Motion for smooth animations, and React-Toast for user-friendly notifications.",
