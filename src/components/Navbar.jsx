@@ -12,7 +12,7 @@ const Navbar = () => {
     window.open('https://github.com/tanmay250501', '_blank');
   };
   const handleResumeClick = () => {
-    'https://drive.google.com/file/d/17janPaICQE_ClMxbg_KlaYw5YFZrKJsR/view?usp=drivesdk', '_blank');
+    ('https://drive.google.com/file/d/17janPaICQE_ClMxbg_KlaYw5YFZrKJsR/view?usp=drivesdk', '_blank');
   };
 
   return (
