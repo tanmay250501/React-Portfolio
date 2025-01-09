@@ -43,15 +43,7 @@ export const PROJECTS = [
       "Explore my portfolio crafted with HTML, CSS, and Tailwind CSS for stunning design, powered by React.js for dynamic interactivity. Integrated with EmailJS for seamless contact forms, Framer Motion for smooth animations, and React-Toast for user-friendly notifications.",
     technologies: ["HTML","Tailwind.CSS", "React.js", "EmailJS" , "Framer-Motion" , "React-Toast" ],
   },
-  {
-    title: "Calculator",
-    image: project3,
-    gitHub:"https://github.com/tanmay250501/Calculator-in-JS",
-    link: "https://tanmay250501.github.io/Calculator-in-JS/",
-    description:
-      "A Calculator which show my strong command on JavaScript",
-    technologies: ["HTML", "CSS", "JavaScript", ],
-  }
+  
   
 ];
 
